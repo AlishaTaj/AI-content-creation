@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure 100vh behaves correctly for layout */
+html, body, #root {
+  height: 100%;
+}
+
+/* Smooth transitions between themes */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global body styles */
+body {
+  @apply font-poppins bg-white text-black dark:bg-black dark:text-white transition-colors duration-300;
+}
+
+/* Prevent layout shift from scrollbar */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(145, 90, 200, 0.4); /* light purple scroll */
+  border-radius: 8px;
+}
