@@ -76,11 +76,6 @@ The goal is to help users create high-quality, optimized content based on curren
 - Google Trends API or `google-trends-api` package
 
 ### Steps
-
-1. Clone the repository
-
-git clone https://github.com/your-username/ai-content-curation-platform.git
-
 cd server
 npm install
 Create a .env file with your MongoDB URI and OpenAI key
@@ -92,16 +87,13 @@ npm run dev
 
 Access the app at http://localhost:5173
 
-Future Enhancements
-Content scheduling and export
+### Future Enhancements
+- Content scheduling and export
+- Custom tone or writing style presets
+- PDF or Markdown export of generated content
+- Real-time SEO feedback
 
-Custom tone or writing style presets
-
-PDF or Markdown export of generated content
-
-Real-time SEO feedback
-
-Maintainer
+### Maintainer
 Alisha Taj
 Email: alishataj72@gmail.com
 LinkedIn: linkedin.com/in/alisha-taj
